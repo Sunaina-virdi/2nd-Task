@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(rgb(2, 2, 86) ,purple);
+    height: 99vh;
+    overflow: hidden;
+}
+.container{
+    margin-top: 10rem;
+    width:360px;
+    padding:33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+h1{    
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(173, 0, 173);
+    outline:none;
+    font-size: 19px;
+    border-radius: 10px;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(173, 0, 173);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text ul{
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    background-color:rgb(160, 69, 160);
+    color: white;
+    font-size : 19px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.text div{
+    display: flex;
+    gap: 20px;
+}
+.text ul .remove-btn{
+    cursor: pointer;
+}
+.text ul .done-btn{
+    cursor: pointer;
+}
+.text ul.done {
+    text-decoration: line-through;
+    color: black;
+
+}
